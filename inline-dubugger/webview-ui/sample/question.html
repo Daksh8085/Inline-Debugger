@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leap Year Checker</title>
+  <style>
+    #Frame {
+      font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      margin-left: 169px;
+      margin-right: 169px;
+      max-width: calc(100% - 338px);
+      box-sizing: border-box;
+    }
+    #Frame code {
+      font-family: Consolas, "Courier New", monospace;
+      background-color: #f5f5f5;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 0.95em;
+    }
+    
+    @media (max-width: 600px) {
+      #Frame {
+        margin-left: 20px;
+        margin-right: 20px;
+        max-width: calc(100% - 40px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div>
+    
+  </div>
+  <div id="Frame">
+    <h3>Write a function</h3>
+    <p>An extra day is added to the calendar almost every four years as February 29, and the day is called a leap day. It corrects the calendar for the fact that our planet takes approximately 365.25 days to orbit the sun. A leap year contains a leap day.</p>
+    <p>In the Gregorian calendar, three conditions are used to identify leap years:</p>
+    <ul>
+      <li>The year can be evenly divided by 4, is a leap year, unless:</li>
+      <ul>
+        <li>The year can be evenly divided by 100, it is NOT a leap year, unless:</li>
+        <ul>
+          <li>The year is also evenly divisible by 400. Then it is a leap year.</li>
+        </ul>
+      </ul>
+    </ul>
+    <p>This means that in the Gregorian calendar, the years 2000 and 2400 are leap years, while 1800, 1900, 2100, 2300, and 2500 are NOT leap years.</p>
+  
+    <h4>Task</h4>
+    <p>Given a year, determine whether it is a leap year. If it is a leap year, return the Boolean <code>True</code>, otherwise return <code>False</code>.</p>
+    <p>Note that the code stub provided reads from STDIN and passes arguments to the <code>is_leap</code> function. It is only necessary to complete the <code>is_leap</code> function.</p>
+    
+    <h5>Input Format</h5>
+    <p>Read year, the year to test.</p>
+  
+    <h5>Output Format</h5>
+    <p>The function must return a Boolean value (True/False). Output is handled by the provided code stub.</p>
+  </div>
+</body>
+</html>
